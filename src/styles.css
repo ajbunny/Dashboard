@@ -1,0 +1,89 @@
+:root {
+  background-color: rgb(237, 237, 237);
+}
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+#SB {
+  background-color: rgb(128, 128, 232);
+  margin: 10px;
+  display: grid;
+  width: 200px;
+  height: 600px;
+  text-align: center;
+  grid-row-start: 3 / span 10;
+}
+#top3 {
+  display: flex;
+  flex-direction: row;
+}
+
+#all4 {
+  display: flex;
+  flex-direction: column;
+}
+
+#Reviews {
+  background-color: rgb(97, 97, 149);
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  padding: 0;
+}
+
+#AVG {
+  background-color: rgb(70, 70, 143);
+  display: grid;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  padding: 0;
+}
+
+#SA {
+  background-color: rgb(46, 46, 208);
+  display: grid;
+  grid-column-start: 7;
+  grid-column-end: 9;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+#SA h3 {
+  margin: 0;
+  padding: 0;
+}
+
+#WebVi {
+  background-color: rgb(50, 50, 142);
+  display: grid;
+  grid-row: 3 / span 4;
+  grid-column: 3 / span 4;
+  width: 620px;
+  height: 400px;
+  text-align: center;
+  padding: 0;
+}
+#box {
+  background-color: rgb(29, 29, 103);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  padding: 40px;
+}
